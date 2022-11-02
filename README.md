@@ -15,7 +15,7 @@ Basic single function to split strings based off digits and case
 
 #### Sets
 ```go
-stringSet := gods.MakeSet[string]()
+	stringSet := gods.MakeSet[string]()
 	stringSet.Add("Hello")
 	stringSet.Add("World")
 	stringSet.Add("Again")
